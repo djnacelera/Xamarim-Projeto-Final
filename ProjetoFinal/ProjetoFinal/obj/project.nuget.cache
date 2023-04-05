@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "fPdrM+USRSgMtq39UVIpyg8n7gZjcO6Z5refZq8h6vWS48qN9RAfE0Jidpw5VYspy5/VUUGbT5bvn7VzfjADtw==",
+  "success": true,
+  "projectFilePath": "E:\\AceleraPL\\XamarimPJ\\PJF\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joao Sambrano\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Joao Sambrano\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Joao Sambrano\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Joao Sambrano\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Joao Sambrano\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Joao Sambrano\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Joao Sambrano\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

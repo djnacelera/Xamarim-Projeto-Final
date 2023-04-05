@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoFinal.Views.PedidosPage"
+             Title="{Binding Title}"
+             xmlns:local="clr-namespace:ProjetoFinal.ViewModels"  
+             xmlns:model="clr-namespace:ProjetoFinal.Models"  
+             x:Name="PedidosItemsPage">
+
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Command="{Binding AddItemCommand}" />
+    </ContentPage.ToolbarItems>-->
+
+    <RefreshView x:DataType="local:PedidosViewModel" Command="{Binding LoadPedidoCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+        <CollectionView x:Name="PedidosListView"
+                ItemsSource="{Binding Items}"
+                SelectionMode="Single" >
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal" x:DataType="model:Pedido">
+                        <Label Text="{Binding Id}" 
+                            LineBreakMode="NoWrap" 
+                               HorizontalOptions="StartAndExpand"
+                            Style="{DynamicResource ListItemTextStyle}" 
+                            FontSize="16" IsVisible="false"/>
+                        <Label Text="{Binding Mesas.Descricao}" 
+                            LineBreakMode="NoWrap"
+                               Padding="15,20,15,15"
+                               HorizontalOptions="Start"
+                                FontAttributes="Bold"
+                            Style="{DynamicResource ListItemTextStyle}" 
+                            FontSize="20" />
+                        <Label Text="{Binding Quantidade}"
+                                Padding="15,20,15,15"
+                               HorizontalOptions="Center"
+                            LineBreakMode="NoWrap"
+                                FontAttributes="Bold"
+                            Style="{DynamicResource ListItemDetailTextStyle}"
+                            FontSize="17" />
+                        <Label Text="{Binding Pratos.Descricao}" 
+                                Padding="15,20,15,15"
+                               HorizontalOptions="CenterAndExpand"
+                            LineBreakMode="NoWrap"
+                            Style="{DynamicResource ListItemDetailTextStyle}"
+                            FontSize="17"
+                               FontAttributes="Bold"/>
+                        <Button Text="ENTREGAR" 
+                                 Padding="20,20,20,20"
+                                HorizontalOptions="EndAndExpand"
+                                TextColor="#fff" Margin="5" FontSize="15"
+                                Command="{Binding BindingContext.EntregarCommand, Source={x:Reference PedidosListView}}" 
+                                CommandParameter="{Binding .}"/>
+
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </RefreshView>
+</ContentPage>

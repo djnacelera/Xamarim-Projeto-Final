@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "DvnsAyRPiLxSfd41I4b1kmOx7Mi9YdfoQn/8eH/w9Iu21jZ7IBUyCFPOa1gRr67IF7Sf8HIUD3Qp/9edoar/Sw==",
+  "success": true,
+  "projectFilePath": "E:\\AceleraPL\\XamarimPJ\\PJF\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.iOS\\ProjetoFinal.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joao Sambrano\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Joao Sambrano\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Joao Sambrano\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Joao Sambrano\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Joao Sambrano\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

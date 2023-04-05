@@ -1,0 +1,17 @@
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\bin\Debug\netstandard2.0\ProjetoFinal.deps.json
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\bin\Debug\netstandard2.0\ProjetoFinal.dll
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\bin\Debug\netstandard2.0\ProjetoFinal.pdb
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\obj\Debug\netstandard2.0\ProjetoFinal.csproj.AssemblyReference.cache
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\obj\Debug\netstandard2.0\ProjetoFinal.GeneratedMSBuildEditorConfig.editorconfig
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\obj\Debug\netstandard2.0\Views\PedidosPage.xaml.g.cs
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\obj\Debug\netstandard2.0\ProjetoFinal.AssemblyInfoInputs.cache
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\obj\Debug\netstandard2.0\ProjetoFinal.AssemblyInfo.cs
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\obj\Debug\netstandard2.0\ProjetoFinal.csproj.CoreCompileInputs.cache
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\obj\Debug\netstandard2.0\XamlC.stamp
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\obj\Debug\netstandard2.0\ProjetoFinal.dll
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\obj\Debug\netstandard2.0\refint\ProjetoFinal.dll
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\obj\Debug\netstandard2.0\ProjetoFinal.pdb
+E:\AceleraPL\XamarimPJ\PJF\ProjetoFinal\ProjetoFinal\ProjetoFinal\obj\Debug\netstandard2.0\ref\ProjetoFinal.dll
