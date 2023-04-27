@@ -52,7 +52,11 @@ namespace ProjetoFinal.ViewModels
             try
             {
                 Items.Clear();
-                var items = await DataStore.ListarPedidosPreparando();
+
+                var items = await DataStore.ListarPedidosDisponivel();
+
+                Items.Clear();
+
 
                 foreach (var item in items)
                 {
@@ -81,6 +85,7 @@ namespace ProjetoFinal.ViewModels
                 string pedido = await DataStore.AlterarPedidoParaEntregue(obj.Id);
                 App.Current.MainPage.DisplayAlert("Aviso", $"{pedido}", "Ok");
 
+                
                 LoadPedidos();
             }
             catch (Exception ex)
@@ -88,6 +93,7 @@ namespace ProjetoFinal.ViewModels
 
             }
         }
+
 
      
 

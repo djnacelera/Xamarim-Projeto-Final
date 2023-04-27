@@ -1,5 +1,4 @@
-﻿using AceleraPleno.API.Repository;
-using ProjetoFinal.Model;
+﻿using ProjetoFinal.Model;
 using ProjetoFinal.Models;
 using System;
 using System.Collections.Generic;
@@ -41,7 +40,7 @@ namespace ProjetoFinal.Services
             };
             return handler;
         }
-        public async Task<IEnumerable<Pedido>> ListarPedidosPreparando()
+        public async Task<IEnumerable<Pedido>> ListarPedidosDisponivel()
         {
             var response = await client.GetAsync("api/Pedido/Listar");
 
@@ -51,7 +50,7 @@ namespace ProjetoFinal.Services
 
 
                 return await Task.FromResult(JsonConvert.DeserializeObject<Pedido[]>(resultado).
-                    ToList().FindAll(x => x.StatusPedido == StatusPedido.Preparando));
+                    ToList().FindAll(x => x.StatusPedido == StatusPedido.Disponivel));
             }
             else
             {

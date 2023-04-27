@@ -20,4 +20,8 @@
       <DependentUpon>PedidosPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Ambiente\" />
+  </ItemGroup>
 </Project>

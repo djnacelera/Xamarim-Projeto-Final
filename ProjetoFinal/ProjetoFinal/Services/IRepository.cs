@@ -8,7 +8,7 @@ namespace ProjetoFinal.Services
 {
     public interface IRepository<TEntity>
     {
-        Task<IEnumerable<TEntity>> ListarPedidosPreparando();
+        Task<IEnumerable<TEntity>> ListarPedidosDisponivel();
 
         Task<string> AlterarPedidoParaEntregue(Guid id);
     }
